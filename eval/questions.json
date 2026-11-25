@@ -1,0 +1,10 @@
+[
+  {"id": "q01", "question": "재택 근무는 일주일에 몇 번까지 돼?", "expected_source": "01_근무규정", "answer_contains": "2회"},
+  {"id": "q02", "question": "오후 반차는 몇 시부터야?", "expected_source": "02_휴가규정", "answer_contains": "3시"},
+  {"id": "q03", "question": "야근 식대 얼마까지 나와?", "expected_source": "03_경비규정", "answer_contains": "1만 2천"},
+  {"id": "q04", "question": "경비규정 제4조가 뭐야?", "expected_source": "03_경비규정", "answer_contains": "5일"},
+  {"id": "q05", "question": "휴가규정 제4조 알려줘", "expected_source": "02_휴가규정", "answer_contains": "경조"},
+  {"id": "q06", "question": "교육지원규정 제3조 내용은?", "expected_source": "04_교육지원규정", "answer_contains": "100만"},
+  {"id": "q07", "question": "택시비는 언제 인정돼?", "expected_source": "03_경비규정", "answer_contains": "11시"},
+  {"id": "q08", "question": "사내 주차 등록은 어떻게 해?", "expected_source": null, "answer_contains": "찾을 수 없습니다"}
+]
