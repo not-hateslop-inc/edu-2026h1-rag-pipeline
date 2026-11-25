@@ -15,6 +15,6 @@ def fit(texts, limit):
     return out, used
 
 if __name__ == "__main__":
-    docs = [open(f"data/policies/{n}", encoding="utf-8").read() for n in ["01_근무규정.md", "02_휴가규정.md", "03_경비규정.md"]]
+    docs = [open(f"data/policies/{n}", encoding="utf-8").read() for n in ["01_work_rules.md", "02_leave_rules.md", "03_expense_rules.md"]]
     kept, used = fit(docs, BUDGET["documents"])
     print(f"문서 {len(kept)}/{len(docs)}개, {used} 토큰")
